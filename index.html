@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Элитные щенки Скотчтерьера | Verona Shevalie Odessa</title>
+    <style>
+        /* Базовые стили для всего сайта */
+        :root {
+            --primary-color: #2c3e50; /* Темно-синий для заголовков */
+            --accent-color: #d35400; /* Оранжевый для акцентов и кнопок */
+            --bg-light: #f8f9fa; /* Светлый фон */
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: var(--primary-color);
+        }
+        section {
+            padding: 60px 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #e67e22;
+        }
+
+        /* Главный экран (Hero) */
+        #hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('https://placehold.co/1200x600/2c3e50/ffffff?text=Фото+Скотчтерьера');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        #hero h1 {
+            color: white;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        #hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        /* Секция о щенке */
+        #puppy-info .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        @media (max-width: 768px) {
+            #puppy-info .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .puppy-details ul {
+            list-style: none;
+            padding: 0;
+        }
+        .puppy-details li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        .puppy-details li::before {
+            content: '🐾';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        /* Преимущества и Родословная */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .benefit-card {
+            background: var(--bg-light);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .benefit-card h3 {
+            margin-top: 0;
+        }
+        #pedigree {
+            background-color: #eef2f7;
+        }
+
+        /* Отзывы */
+        .testimonial-box {
+            background: #fff;
+            padding: 30px;
+            border-left: 5px solid var(--accent-color);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            font-style: italic;
+        }
+        .testimonial-author {
+            margin-top: 15px;
+            font-weight: bold;
+            text-align: right;
+            color: var(--primary-color);
+        }
+
+        /* Подвал (Footer) */
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Ваш верный друг и аристократ: Шотландский терьер</h1>
+            <p>Откройте для себя преданность и характер настоящих скотчтерьеров с отличной родословной.</p>
+            <a href="#contact" class="btn">Узнать о щенках</a>
+        </div>
+    </section>
+
+    <section id="puppy-info">
+        <div class="container">
+            <h2>Сейчас в поиске семьи: Verona Shevalie Odessa</h2>
+            <div class="content-grid">
+                <div class="puppy-image">
+                    <img src="https://placehold.co/600x400/orange/white?text=Фото+Verona+Shevalie+Odessa" alt="Щенок скотчтерьера Verona Shevalie Odessa">
+                </div>
+                <div class="puppy-details">
+                    <p>Представляем вашему вниманию очаровательную девочку скотчтерьера. Верона — это сочетание породного темперамента, прекрасного экстерьера и ласкового характера. Она станет идеальным компаньоном для ценителей породы.</p>
+                    <ul>
+                        <li><strong>Порода:</strong> Шотландский терьер (Скотчтерьер)</li>
+                        <li><strong>Пол:</strong> Девочка</li>
+                        <li><strong>Кличка:</strong> Verona Shevalie Odessa</li>
+                        <li><strong>Документы:</strong> Полный пакет документов, клеймо, ветпаспорт.</li>
+                        <li><strong>Статус:</strong> Готова к переезду в новый любящий дом.</li>
+                    </ul>
+                    <a href="#contact" class="btn" style="margin-top: 20px;">Связаться с заводчиком</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="breed-benefits">
+        <div class="container">
+            <h2 style="text-align: center;">Почему стоит выбрать Скотчтерьера?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Яркая индивидуальность</h3>
+                    <p>Скотчтерьеры — это собаки с характером. Они умны, независимы, но при этом безгранично преданы своей семье.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Компактный и крепкий</h3>
+                    <p>Идеальный размер для жизни в городе и за его пределами. Это крепкая, выносливая собака, готовая к долгим прогулкам.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Уникальная внешность</h3>
+                    <p>Их узнаваемый силуэт, борода и брови никого не оставят равнодушным. Это настоящие джентльмены собачьего мира.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pedigree">
+        <div class="container">
+            <h2 style="text-align: center;">Почему важна родословная?</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 30px;">Покупка щенка с документами — это не просто "бумажка", это гарантия качества и здоровья вашего будущего члена семьи.</p>
+            <div class="benefits-grid">
+                 <div class="benefit-card" style="background: white;">
+                    <h3>Гарантия здоровья</h3>
+                    <p>Ответственные заводчики проводят тесты на генетические заболевания, снижая риск наследственных проблем у потомства.</p>
+                </div>
+                <div class="benefit-card" style="background: white;">
+                    <h3>Предсказуемый характер</h3>
+                    <p>Родословная подтверждает принадлежность к породе, а значит, вы получаете собаку с ожидаемым темпераментом и поведением скотчтерьера.</p>
+                </div>
+                 <div class="benefit-card" style="background: white;">
+                    <h3>Породные стандарты</h3>
+                    <p>Ваш щенок вырастет именно в того красавца, которого вы ожидали, соответствуя всем стандартам породы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2 style="text-align: center;">Отзывы наших владельцев</h2>
+            <div class="testimonial-box" style="max-width: 800px; margin: 0 auto;">
+                <p>«Мы очень долго искали именно скотчтерьера и счастливы, что обратились именно к вам! Наш малыш растет невероятно умным, здоровым и красивым. Спасибо за профессионализм, поддержку в вопросах воспитания и за нашего нового лучшего друга. Видно, что щенки выращены в любви и заботе!»</p>
+                <div class="testimonial-author">— Мария и Антонина, счастливые владельцы</div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Забронируйте своего щенка</h2>
+            <p>Свяжитесь с нами, чтобы узнать больше о Вероне и договориться о встрече.</p>
+            <p>📞 Телефон / WhatsApp: +7 (999) 000-00-00</p>
+            <p>📧 Email: your-email@example.com</p>
+            <p style="margin-top: 30px; font-size: 0.9em;">© 2023 Питомник Скотчтерьеров. Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
